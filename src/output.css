@@ -719,6 +719,14 @@ video {
   margin: ;
 }
 
+.m-\[50px\] {
+  margin: 50px;
+}
+
+.m-\[20px\] {
+  margin: 20px;
+}
+
 .mt-2 {
   margin-top: 0.5rem;
 }
@@ -753,6 +761,34 @@ video {
 
 .mt-\[25px\] {
   margin-top: 25px;
+}
+
+.mt-\[10px\] {
+  margin-top: 10px;
+}
+
+.mb-\[\] {
+  margin-bottom: ;
+}
+
+.mb-\[20px\] {
+  margin-bottom: 20px;
+}
+
+.mb-\[0px\] {
+  margin-bottom: 0px;
+}
+
+.mb-\[90px\] {
+  margin-bottom: 90px;
+}
+
+.mb-\[130px\] {
+  margin-bottom: 130px;
+}
+
+.mb-\[50px\] {
+  margin-bottom: 50px;
 }
 
 .box-border {
@@ -1434,6 +1470,14 @@ video {
 
 .gap-10 {
   gap: 2.5rem;
+}
+
+.gap-8 {
+  gap: 2rem;
+}
+
+.gap-6 {
+  gap: 1.5rem;
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
@@ -2134,6 +2178,11 @@ video {
   line-height: 2rem;
 }
 
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -2673,6 +2722,10 @@ video {
 }
 
 @media (min-width: 1024px) {
+  .lg\:mb-\[130px\] {
+    margin-bottom: 130px;
+  }
+
   .lg\:block {
     display: block;
   }
@@ -2703,6 +2756,10 @@ video {
 
   .lg\:flex-row {
     flex-direction: row;
+  }
+
+  .lg\:justify-between {
+    justify-content: space-between;
   }
 
   .lg\:justify-around {
