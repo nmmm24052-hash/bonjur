@@ -4,11 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="./src/output.css">
 </head>
 <body>
     <header>
-        
+        <nav class="flex justify-around p-[50px]">
+            <img src="src/Logo.png" class="w-[170px] h-[30px] lg:w-[300px] lg:h-[50px] " alt="">
+            <div class="hidden lg:flex gap-4">
+                <li>О нас</li>
+                <li>Услуги</li>
+                <li>Специалисты</li>
+                <li>Контакты</li>
+                <li> <span class="text-sm text-gray-400">Есть номер! Звоните </span><br>+7 495 797 77 35</li>
+                <button class="w-[200px] h-[50px] bg-[green] text-white">Заказать звонок</button>
+                </div>
+            <aside class="flex gap-5 lg:hidden">
+                <img src="src/image.png" class="w-[20px] h-[20px]" alt="">
+                <img src="src/image copy.png" class="w-[28px] h-[20px]" alt="">
+            </aside>              
+        </nav>
+        <section>
+            <div style="background-image: url(./src/Image-00.png) ;background-repeat: no-repeat;background-size: cover;height: 70vh;margin: 50px;padding: 50px;">            
+            <h1 class="text-3xl lg:text-5xl text text-white font-semibold">Подмосковная резиденция <br> "ЛЕСНАЯ УСАДЬБА"</h1><br>
+            <p class="text-white text-xl">Пансионат для пожилых <br> премиум-класса</p>
+            <aside class="flex flex-col items-center lg:flex-row lg:justify-around  mt-[150px] text-white ">
+                <li>Для тех, кто любит <br> своих родных и близких</li>
+            <li>Безопасная среда <br> и интересный досуг</li>
+            <li>Долгосрочные и краткосрочные <br> программы пребывания</li>
+            
+        </aside>
+            </div>
+        </section>
     </header>
+    <footer>
+        <article>
+            <img src="" alt="">
+            <p>ООО "ЛЕСНАЯ УСАДЬБА" <br> ИНН 5032365204  <br>ОГРН 1235000101071</p>
+        </article>
+        <li>О наc</li>
+        <li>Услуги</li>
+        <li>Специалисты</li>
+        <li>Контакты</li>
+        <p>© 2023, Резиденция “Лесная Усадьбы”</p>
+        <p class="text-[green]">Политика конфиденциальности</p>
+    </footer>
 </body>
 </html>
